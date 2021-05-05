@@ -19,16 +19,16 @@ Example:
 
 Logic:
 	Each roll (pins knocked down) is added to an array indexed by turn, N.
-	The score is calculated by following the rules.
+	The score is calculated by following the rules in order.
 Rules:
-
-	Spare, roll[N] + roll[N + 1] == 10 
-		Score[N] = 10 + roll[N+1]
-		N += 1
-
-	Strike, roll[N] == 10
+	STRIKE: if roll[N] == 10
+ 
 		Score[N] = 10 + roll[N+1] + roll[N+2]
 		N += 2
 
-	Open frame, None of the above
+	SPARE: if roll[N] + roll[N + 1] == 10 
+		Score[N] = 10 + roll[N+1]
+		N += 1
+
+	OPEN FRAME
 		Score[N] = roll[N]
