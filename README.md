@@ -3,8 +3,8 @@
 
 	   1     2     3     4     5     6     7     8     9     10		Frame#
 	+-----+-----+-----+-----+-----+-----+-----+-----+-----+--+----+		
-	|     |     |     |     |     |     |     |     |     |       |		Roll
-	|     |     |     |     |     |     |     |     |     |       |		Score
+	|     |     |     |     |     |     |     |     |     |       |		roll
+	|     |     |     |     |     |     |     |     |     |       |		score
 	+-----+-----+-----+-----+-----+-----+-----+-----+-----+--+----+
 
 Example:
@@ -23,12 +23,12 @@ Example:
 
 	STRIKE: if roll[N] == 10
  
-		Score[N] = 10 + roll[N+1] + roll[N+2]
+		score[N] = 10 + roll[N+1] + roll[N+2]
 		N += 2
 
 	SPARE: if roll[N] + roll[N + 1] == 10 
-		Score[N] = 10 + roll[N+1]
+		score[N] = 10 + roll[N+1]
 		N += 1
 
 	OPEN FRAME
-		Score[N] = roll[N]
+		score[N] = roll[N]
