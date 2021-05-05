@@ -17,10 +17,10 @@ Example:
 	Total score: 146
 
 
-Logic:
+
 	Each roll (pins knocked down) is added to an array indexed by turn, N.
-	The score is calculated by following the rules in order.
-Rules:
+	The score is calculated by following in order:
+
 	STRIKE: if roll[N] == 10
  
 		Score[N] = 10 + roll[N+1] + roll[N+2]
