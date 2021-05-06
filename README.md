@@ -31,7 +31,7 @@ Logic:
 		score[N] = 10 + roll[N+2]
 		N += 2
 
-	OPEN FRAME
+	OPEN FRAME:
 
 		score[N] = roll[N] + roll[N+1]
 		N += 2
