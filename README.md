@@ -54,7 +54,7 @@ Example:
 	Frame 3 (Open frame)
 		       *
 	roll = [10, 5, 2, 3, 4, ...]
-			   ^  ^
-			   |  |
-			   3 +4 = 7
+		       ^  ^
+		       |  |
+		       3 +4 = 7
 	score[2] = 7
