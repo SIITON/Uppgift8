@@ -52,7 +52,7 @@ Example:
 	score[1] = 7
 
 	Frame 3 (Open frame)
-		      *
+		       *
 	roll = [10, 5, 2, 3, 4, ...]
 					  ^  ^
 					  |  |
