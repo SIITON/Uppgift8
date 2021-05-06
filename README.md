@@ -47,7 +47,7 @@ Example:
 	score[0] = 17
 
 	Frame 2 (Open frame)
-		    *
+	N:	    *
 	roll = [10, 5, 2, 3, 4, ...]
 		    ^  ^
 		    |  |
@@ -55,7 +55,7 @@ Example:
 	score[1] = 7
 
 	Frame 3 (Open frame)
-		          *
+	N:	          *
 	roll = [10, 5, 2, 3, 4, ...]
 		          ^  ^
 		          |  |
