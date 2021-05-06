@@ -16,7 +16,7 @@ Example:
 	+-----+-----+-----+-----+-----+-----+-----+-----+-----+-------+
 	Total score: 146
 
-
+Logic:
 
 	Each roll (pins knocked down) is added to an array indexed by turn, N.
 	The score is calculated by following in order:
