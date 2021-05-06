@@ -26,11 +26,13 @@ Logic:
 		score[N] = 10 + roll[N+1] + roll[N+2]
 		N += 1
 
-	SPARE: if roll[N] + roll[N+1] == 10 
+	SPARE: if roll[N] + roll[N+1] == 10
+
 		score[N] = 10 + roll[N+2]
 		N += 2
 
 	OPEN FRAME
+
 		score[N] = roll[N] + roll[N+1]
 		N += 2
 
