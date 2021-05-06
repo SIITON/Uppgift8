@@ -31,7 +31,8 @@ Example:
 		N += 1
 
 	OPEN FRAME
-		score[N] = roll[N]
+		score[N] = roll[N] + roll[N + 1]
+		N += 2
 
 Example: 
 
