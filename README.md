@@ -46,15 +46,15 @@ Example:
 	Frame 2 (Open frame)
 		    *
 	roll = [10, 5, 2, 3, 4, ...]
-			^  ^
-			|  |
-			5 +2 = 7
+		    ^  ^
+		    |  |
+		    5 +2 = 7
 	score[1] = 7
 
 	Frame 3 (Open frame)
 		       *
 	roll = [10, 5, 2, 3, 4, ...]
-					  ^  ^
-					  |  |
-					  3 +4 = 7
+			   ^  ^
+			   |  |
+			   3 +4 = 7
 	score[2] = 7
