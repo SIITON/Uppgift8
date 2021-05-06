@@ -7,17 +7,17 @@ namespace Uppgift8.Bowling
     public class BowlingGame2 : IBowlingGame
     {
         private int[] _rolls;
-        private int _turn;
+        public int Turn;
 
         public BowlingGame2()
         {
             _rolls = new int[21];
-            _turn = 0;
+            Turn = 0;
         }
         public void Roll(int pins_striked)
         {
-            _rolls[_turn] = pins_striked;
-            _turn++;
+            _rolls[Turn] = pins_striked;
+            Turn++;
         }
 
         public int Score()
