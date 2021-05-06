@@ -36,7 +36,7 @@ Example:
 Example: 
 
 	Frame 1 (Strike)
-	*
+		*
 	roll = [10, 5, 2, 3, 4, ...]
 			^   ^  ^
 			|   |  | 
