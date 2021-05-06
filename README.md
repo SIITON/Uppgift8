@@ -39,7 +39,7 @@ Logic:
 Example: 
 
 	Frame 1 (Strike)
-		*
+	N:	*
 	roll = [10, 5, 2, 3, 4, ...]
 		^   ^  ^
 		|   |  | 
